@@ -26,8 +26,8 @@ import (
 
 func main() {
     entity := "Hello World!"
-    fmt.Println("Etag:", Generate(entity, false))
-    fmt.Println("Week Etag:", Generate(entity, true))
+    fmt.Println("Etag:", etag.Generate(entity, false))
+    fmt.Println("Week Etag:", etag.Generate(entity, true))
 }
 ```
 
