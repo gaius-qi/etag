@@ -1,2 +1,3 @@
 # etag
-Create HTTP etag header
+
+Generate a simple ETag
