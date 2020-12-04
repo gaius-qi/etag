@@ -5,7 +5,7 @@ import (
 )
 
 func TestGenerateEtag(t *testing.T) {
-	entitys := []string{"etag", "标签", ""}
+	entitys := []string{"etag", ""}
 	etags := []string{
 		"\"4-92e200311a56800b3e475bf2d2442724535e87bf\"",
 		"\"6-ae0a7afecee1e83d27e322e287cb9bf351ea0018\"",
@@ -21,7 +21,7 @@ func TestGenerateEtag(t *testing.T) {
 }
 
 func TestGenerateWeekEtag(t *testing.T) {
-	entitys := []string{"etag", "标签", ""}
+	entitys := []string{"etag", ""}
 	etags := []string{
 		"W/\"4-92e200311a56800b3e475bf2d2442724535e87bf\"",
 		"W/\"6-ae0a7afecee1e83d27e322e287cb9bf351ea0018\"",
