@@ -5,7 +5,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/gaius-qi/etag/badge.svg?branch=master)](https://coveralls.io/github/gaius-qi/etag?branch=master)
 [![GoDoc](https://godoc.org/github.com/gaius-qi/etag?status.svg)](https://godoc.org/github.com/gaius-qi/etag)
 
-Generate a simple ETag.
+Generate a simple ETag
 
 ## Installation
 
